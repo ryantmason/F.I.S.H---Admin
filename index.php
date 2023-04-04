@@ -45,7 +45,7 @@
         // Retrieve selected item information from the database
         $servername = "localhost";
         $username = "root";
-        $password = "Greenlantern#4";
+        $password = "";
         $dbname = "testfish";
         
         // Create connection
