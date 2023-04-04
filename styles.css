@@ -21,6 +21,7 @@ body {
 
 #date {
     font-family: 'Saira', sans-serif;
+    font-size: 20px;
 }
 
 .bold { 
@@ -32,6 +33,21 @@ select[name="catch_id"] {
     height: 500px;
     border-style: ridge;
     border-width: 3px;
+    font-size: 20px;
+    font-family: 'Saira', sans-serif;
+}
+
+input[name="edit"] {
+    font-size: 20px;
+    font-family: 'Saira', sans-serif;
+}
+
+input[name="delete"] {
+    font-size: 20px;
+    font-family: 'Saira', sans-serif;
+}
+
+input[name="submit"] {
     font-size: 20px;
     font-family: 'Saira', sans-serif;
 }

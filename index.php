@@ -32,7 +32,7 @@
 
     <form method="post">
     <p id='date'>Date: <input type="text" id="datepicker" name="datepicker"></p>
-    <input type="submit" value="Submit">
+    <input name="submit" type="submit" value="Submit">
     </form>
 
     <?php
