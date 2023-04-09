@@ -45,7 +45,7 @@
         // Retrieve selected item information from the database
         $servername = "localhost";
         $username = "root";
-        $password = "";
+        $password = "Greenlantern#4";
         $dbname = "testfish";
         
         // Create connection
@@ -64,7 +64,7 @@
 
             // output data of each row
             while($row = $result->fetch_assoc()) {
-                echo "<option value='".$row["catch_id"]."'>
+                echo "<option id='options' value='".$row["catch_id"]."'>
                         Catch ID: ".$row["catch_id"]." | PIT Tag: ".$row["pit"]." | HEX: ".$row["hex"]." | Date Last Caught: ".$row["lastCaught"]." | Fish Species: ".$row["species"]." | Fish Length: ".$row["length"]." | River Mile Caught: ".$row["riverMile"]."
                       </option>";
             }
